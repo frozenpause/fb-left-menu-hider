@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="color-scheme" content="dark" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>FB Left Navigation - Options</title>
+  <link rel="stylesheet" href="styles/styles.css" />
+</head>
+
+<body>
+  <div class="wrap">
+    <div class="card">
+      <div class="topbar">
+        <div class="brand">
+          <div class="avatar" aria-hidden="true">
+            <img src="icons/icon.png" alt="" />
+          </div>
+
+          <div class="titles">
+            <h1>FB Left Navigation - Options</h1>
+            <div class="sub">Toggle which left navigation tabs are visible.</div>
+          </div>
+        </div>
+
+        <div class="author">
+          <span class="pill">Author: frozenpause</span>
+        </div>
+      </div>
+
+      <div class="content">
+        <p class="hint">
+          Works with tab text (example: <code>Saved</code>, <code>Groups</code>, <code>Messenger</code>).
+          If Facebook changes the titles / the language — the labels should be changed too.
+        </p>
+
+        <div id="grid" class="grid"></div>
+
+        <div class="row">
+          <button class="primary" id="save">Save</button>
+          <button class="danger" id="reset">Reset defaults</button>
+        </div>
+
+        <div id="status" class="ok"></div>
+      </div>
+    </div>
+  </div>
+
+  <script type="module" src="scripts/options.js"></script>
+</body>
+
+</html>

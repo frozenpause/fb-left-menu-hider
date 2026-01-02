@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect x="0" y="0" width="512" height="512" rx="96" fill="#1877F2"></rect>
+
+  <!-- Hamburger / filter metaphor -->
+  <rect x="140" y="170" width="232" height="28" rx="14" fill="#fff"></rect>
+  <rect x="140" y="242" width="232" height="28" rx="14" fill="#fff"></rect>
+  <rect x="140" y="314" width="232" height="28" rx="14" fill="#fff"></rect>
+
+  <!-- Eye cut (visibility) -->
+  <circle cx="356" cy="246" r="22" fill="#1877F2"></circle>
+  <circle cx="356" cy="246" r="12" fill="#fff"></circle>
+</svg>
